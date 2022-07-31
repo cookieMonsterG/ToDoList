@@ -1,0 +1,116 @@
+body {
+    background-color: antiquewhite;
+}
+
+#main-box {
+    margin: 10% 20%;
+}
+
+.btn {
+    background: gray;
+    color: black;
+    border: none;
+    font-size: 16px;
+    padding: 10px 100px;
+    cursor: pointer;
+}
+
+.btn-blue {
+    background: #4c6ca0;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    padding: 10px 40px;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.btn:hover {
+    color: white;
+    background-color: lightgray;
+}
+
+#btn-container {
+    margin-top: 10px;
+}
+
+.input-box {
+    text-align: center;
+    background-color: red;
+    padding: 20px 0px;
+}
+
+.input-box p {
+    color: white;
+    font-size: 1.5rem;
+}
+
+input {
+    padding: 10px;
+    width: 50%;
+    border: none;
+}
+
+#table {
+    background-color: bisque;
+}
+
+.task {
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.task-name {
+    margin-left: 2rem;
+}
+
+.task:nth-child(odd) {
+    background-color: rgb(229, 224, 224);
+}
+
+.task:nth-child(even) {
+    background-color: rgb(250, 247, 247);
+}
+
+.task:hover {
+    background-color: grey;
+}
+
+.delete:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+.completed {
+    background-color: grey !important;
+}
+
+
+/* hide tasks */
+
+.hidden {
+    display: none;
+}
+
+
+/* style sort button */
+
+.active {
+    background-color: beige;
+    color: black;
+}
+
+
+/* check mark */
+
+span {
+    margin-right: 1rem;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.completed .task-name {
+    margin-left: 0;
+}
